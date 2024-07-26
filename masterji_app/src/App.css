@@ -1,0 +1,26 @@
+.font-dm-sans {
+  font-family: "DM Sans", sans-serif;
+  font-optical-sizing: auto;
+}
+
+.font-inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+
+/* draggable */
+.moveable {
+  position: absolute;
+  width: 100px;
+  height: 96px;
+  background-color: #f0f0f0;
+  cursor: grab;
+}
+/* dropdown */
+.dropdown-content {
+  display: none;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
